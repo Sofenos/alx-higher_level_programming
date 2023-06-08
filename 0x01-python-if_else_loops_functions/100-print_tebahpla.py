@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 def print_tebahpla():
-    for i in range(ord('z'), ord('a') - 1, -1):
+    for i in range(ord('z'), ord('A') - 1, -1):
         if i % 2 == 0:
-            print("{}".format(chr(i).upper()), end='')
+            print("{}".format(chr(i).lower()), end='')
         else:
             print("{}".format(chr(i)), end='')
 print_tebahpla()
